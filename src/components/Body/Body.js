@@ -50,7 +50,7 @@ const Body = () => {
             ...post
         }
 
-        fetch('https://facebook-server-side.herokuapp.com/posts', {
+        fetch('https://israkbook-server-side.herokuapp.com/posts', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

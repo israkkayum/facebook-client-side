@@ -7,7 +7,7 @@ const Posts = () => {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        fetch('https://facebook-server-side.herokuapp.com/posts')
+        fetch('https://israkbook-server-side.herokuapp.com/posts')
             .then(res => res.json())
             .then(data => setPosts(data))
     }, [])
